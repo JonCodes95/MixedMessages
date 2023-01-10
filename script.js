@@ -20,6 +20,9 @@ const mixedMessage = function () {
   console.log(adjNum);
   console.log(colorsNum);
   console.log(objNum);
+
+  let message = `${name[nameNum]} ${noun[nounNum]} ${adj[adjNum]} ${colors[colorsNum]} ${obj[objNum]}`;
+  console.log(message);
 };
 
 mixedMessage();
