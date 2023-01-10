@@ -1,7 +1,3 @@
-console.log(27);
-
-console.log(43);
-
 const mixedMessage = function () {
   const name = ["James", " Jon", "Sam", "Luke", "Joe"];
   const noun = ["likes", "loves", "hates", "despises", "dislikes"];
@@ -14,12 +10,6 @@ const mixedMessage = function () {
   let adjNum = Math.floor(Math.random() * 5);
   let colorsNum = Math.floor(Math.random() * 5);
   let objNum = Math.floor(Math.random() * 5);
-
-  console.log(nameNum);
-  console.log(nounNum);
-  console.log(adjNum);
-  console.log(colorsNum);
-  console.log(objNum);
 
   let message = `${name[nameNum]} ${noun[nounNum]} ${adj[adjNum]} ${colors[colorsNum]} ${obj[objNum]}`;
   console.log(message);
